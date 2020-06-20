@@ -2,6 +2,10 @@
 
 > An opinionated TypeScript based React Next.js, Redux and ThemeUI boilerplate that ensures type safety and testability
 
+## Notice
+
+The project **is still a work in progress and is not yet ready for use**
+
 ## Motivation
 
 I am a big fan of Next.js and I use it frequently in my daily life of being a programmer but the starting boilerplate is very simple and does not include a lot of must haves like Jest and ESLint. It became time consuming adding everything I needed in each project so I made this boilerplate as a good starting point for any of my future projects and open for use to any other fellow devs :)

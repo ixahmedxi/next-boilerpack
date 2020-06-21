@@ -1,6 +1,6 @@
-import { TopBar } from '@components/Home'
+import { Counter, TopBar } from '@components/Home'
 import { Container, Layout } from '@shared'
-import { Box, Text } from 'theme-ui'
+import { Box, Flex, Text } from 'theme-ui'
 
 const Index: React.FC = () => {
   return (
@@ -11,10 +11,27 @@ const Index: React.FC = () => {
             title="nextjs boilerpack"
             githubLink="http://github.com/ixahmedxi/next-boilerpack"
           />
-          <Text as="p" sx={{ lineHeight: 1.5, fontSize: [0, 1] }}>
-            An opinionated TypeScript based React Next.js, Redux and ThemeUI
-            boilerplate that ensures type safety and testability.
-          </Text>
+          <Flex
+            sx={{
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              mt: 2
+            }}
+          >
+            <Text
+              as="p"
+              sx={{
+                lineHeight: 1.5,
+                fontSize: [0, 1],
+                flex: 1,
+                display: 'inline-block'
+              }}
+            >
+              An opinionated TypeScript based React Next.js, Redux and ThemeUI
+              boilerplate that ensures type safety and testability.
+            </Text>
+            <Counter />
+          </Flex>
         </Box>
       </Container>
     </Layout>

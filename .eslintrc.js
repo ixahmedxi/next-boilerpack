@@ -1,6 +1,9 @@
 module.exports = {
   parserOptions: {
-    project: './tsconfig.json'
+    project: './tsconfig.json',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   extends: [
     'standard-with-typescript',
@@ -10,7 +13,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:promise/recommended',
-    'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:unicorn/recommended',
     'plugin:jest/recommended',
@@ -24,6 +27,20 @@ module.exports = {
     browser: true
   },
   rules: {
+    // Theme UI requires null to skip breakpoints
+    'unicorn/no-null': 0,
+
+    // Pascal case for component file namings
+    'unicorn/filename-case': [
+      'error',
+      {
+        cases: {
+          camelCase: true,
+          pascalCase: true
+        }
+      }
+    ],
+
     // Next.js does not need React to be in the scope
     'react/react-in-jsx-scope': 0,
 

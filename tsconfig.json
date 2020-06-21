@@ -14,11 +14,13 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "baseUrl": ".",
     "paths": {
-      "@src/": ["src/*"]
+      "@src/*": ["src/*"],
+      "@shared": ["src/components/shared/index"],
+      "@components/*": ["src/components/*"]
     }
   },
   "exclude": ["node_modules"],

@@ -1,6 +1,6 @@
 import { theme } from '@src/theme'
 import { FiMoon } from 'react-icons/fi'
-import { IconButton, useColorMode } from 'theme-ui'
+import { useColorMode } from 'theme-ui'
 
 export const ThemeSwitcher: React.FC = () => {
   const modes = Object.keys(theme.colors.modes)
@@ -12,17 +12,5 @@ export const ThemeSwitcher: React.FC = () => {
     setMode(next)
   }
 
-  return (
-    <IconButton
-      sx={{
-        width: [5, null, 6],
-        height: [5, null, 6],
-        cursor: 'pointer',
-        outline: 'none'
-      }}
-      onClick={() => toggleTheme()}
-    >
-      <FiMoon size="100%" />
-    </IconButton>
-  )
+  return <FiMoon onClick={() => toggleTheme()} size="100%" />
 }

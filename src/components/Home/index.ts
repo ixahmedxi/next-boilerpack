@@ -1,5 +1,4 @@
-import { Counter } from './Counter/Counter.component'
-import { ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher.component'
+import { Description } from './Description/Description.component'
 import { TopBar } from './TopBar/TopBar.component'
 
-export { ThemeSwitcher, TopBar, Counter }
+export { TopBar, Description }

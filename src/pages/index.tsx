@@ -7,10 +7,7 @@ const Index: React.FC = () => {
     <Layout title="Next Boilerpack">
       <Container>
         <Box sx={{ pt: [2, 4, 6] }}>
-          <TopBar
-            title="nextjs boilerpack"
-            githubLink="http://github.com/ixahmedxi/next-boilerpack"
-          />
+          <TopBar title="nextjs boilerpack" />
           <Description />
         </Box>
       </Container>

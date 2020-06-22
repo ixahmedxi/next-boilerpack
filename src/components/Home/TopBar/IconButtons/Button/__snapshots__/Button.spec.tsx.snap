@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar IconButtons Button component Matches snapshot 1`] = `
+<ForwardRef
+  sx={
+    Object {
+      "cursor": "pointer",
+      "height": Array [
+        5,
+        null,
+        6,
+      ],
+      "outline": "none",
+      "width": Array [
+        5,
+        null,
+        6,
+      ],
+    }
+  }
+>
+  Button
+</ForwardRef>
+`;

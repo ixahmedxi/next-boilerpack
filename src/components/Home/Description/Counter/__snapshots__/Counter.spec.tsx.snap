@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component renders the corrrect styling 1`] = `
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: primary;
+  border: 0;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  border-radius: 500px;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+<Counter>
+  <Styled(div)
+    sx={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <div
+      className="emotion-3"
+    >
+      <CounterButton
+        data-testid="increment"
+        onClick={[Function]}
+      >
+        <ForwardRef
+          onClick={[Function]}
+          sx={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 500,
+              "cursor": "pointer",
+              "display": "flex",
+              "height": "32px",
+              "justifyContent": "center",
+              "m": 0,
+              "outline": "none",
+              "p": 0,
+              "width": "32px",
+            }
+          }
+        >
+          <Styled(div)
+            __css={
+              Object {
+                "appearance": "none",
+                "bg": "primary",
+                "border": 0,
+                "borderRadius": 4,
+                "color": "white",
+                "display": "inline-block",
+                "fontSize": "inherit",
+                "lineHeight": "inherit",
+                "px": 3,
+                "py": 2,
+                "textAlign": "center",
+                "textDecoration": "none",
+              }
+            }
+            __themeKey="buttons"
+            as="button"
+            onClick={[Function]}
+            sx={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 500,
+                "cursor": "pointer",
+                "display": "flex",
+                "height": "32px",
+                "justifyContent": "center",
+                "m": 0,
+                "outline": "none",
+                "p": 0,
+                "width": "32px",
+              }
+            }
+            variant="primary"
+          >
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </Styled(div)>
+        </ForwardRef>
+      </CounterButton>
+      <ForwardRef
+        as="p"
+        sx={
+          Object {
+            "display": "inline-block",
+            "mx": 2,
+            "my": 0,
+            "p": 0,
+          }
+        }
+      >
+        <Styled(div)
+          __themeKey="text"
+          as="p"
+          sx={
+            Object {
+              "display": "inline-block",
+              "mx": 2,
+              "my": 0,
+              "p": 0,
+            }
+          }
+        >
+          <p
+            className="emotion-1"
+          >
+            Count: 
+            0
+          </p>
+        </Styled(div)>
+      </ForwardRef>
+      <CounterButton
+        data-testid="decrement"
+        onClick={[Function]}
+      >
+        <ForwardRef
+          onClick={[Function]}
+          sx={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 500,
+              "cursor": "pointer",
+              "display": "flex",
+              "height": "32px",
+              "justifyContent": "center",
+              "m": 0,
+              "outline": "none",
+              "p": 0,
+              "width": "32px",
+            }
+          }
+        >
+          <Styled(div)
+            __css={
+              Object {
+                "appearance": "none",
+                "bg": "primary",
+                "border": 0,
+                "borderRadius": 4,
+                "color": "white",
+                "display": "inline-block",
+                "fontSize": "inherit",
+                "lineHeight": "inherit",
+                "px": 3,
+                "py": 2,
+                "textAlign": "center",
+                "textDecoration": "none",
+              }
+            }
+            __themeKey="buttons"
+            as="button"
+            onClick={[Function]}
+            sx={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 500,
+                "cursor": "pointer",
+                "display": "flex",
+                "height": "32px",
+                "justifyContent": "center",
+                "m": 0,
+                "outline": "none",
+                "p": 0,
+                "width": "32px",
+              }
+            }
+            variant="primary"
+          >
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+            >
+              -
+            </button>
+          </Styled(div)>
+        </ForwardRef>
+      </CounterButton>
+    </div>
+  </Styled(div)>
+</Counter>
+`;

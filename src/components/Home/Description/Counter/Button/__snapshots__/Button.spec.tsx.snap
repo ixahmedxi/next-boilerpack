@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Button Component matches snapshot 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: primary;
+  border: 0;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  border-radius: 500px;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+<CounterButton
+  onClick={[MockFunction]}
+>
+  <ForwardRef
+    onClick={[MockFunction]}
+    sx={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 500,
+        "cursor": "pointer",
+        "display": "flex",
+        "height": "32px",
+        "justifyContent": "center",
+        "m": 0,
+        "outline": "none",
+        "p": 0,
+        "width": "32px",
+      }
+    }
+  >
+    <Styled(div)
+      __css={
+        Object {
+          "appearance": "none",
+          "bg": "primary",
+          "border": 0,
+          "borderRadius": 4,
+          "color": "white",
+          "display": "inline-block",
+          "fontSize": "inherit",
+          "lineHeight": "inherit",
+          "px": 3,
+          "py": 2,
+          "textAlign": "center",
+          "textDecoration": "none",
+        }
+      }
+      __themeKey="buttons"
+      as="button"
+      onClick={[MockFunction]}
+      sx={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 500,
+          "cursor": "pointer",
+          "display": "flex",
+          "height": "32px",
+          "justifyContent": "center",
+          "m": 0,
+          "outline": "none",
+          "p": 0,
+          "width": "32px",
+        }
+      }
+      variant="primary"
+    >
+      <button
+        className="emotion-0"
+        onClick={[MockFunction]}
+      >
+        Button
+      </button>
+    </Styled(div)>
+  </ForwardRef>
+</CounterButton>
+`;

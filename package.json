@@ -61,6 +61,7 @@
     "jest-emotion": "^10.0.32",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "redux-test-utils": "^1.0.0",
     "ts-jest": "^26.1.0",
     "typescript": "^3.9.5"
   },

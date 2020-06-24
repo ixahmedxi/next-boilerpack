@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page matches snapshot 1`] = `
+<Layout
+  title="Next Boilerpack"
+>
+  <Container>
+    <Styled(div)
+      sx={
+        Object {
+          "pt": Array [
+            2,
+            4,
+            6,
+          ],
+        }
+      }
+    >
+      <TopBar
+        title="nextjs boilerpack"
+      />
+      <Description />
+    </Styled(div)>
+  </Container>
+</Layout>
+`;

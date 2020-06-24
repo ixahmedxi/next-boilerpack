@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar component matches snapshot 1`] = `
+<Styled(div)
+  sx={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <ForwardRef
+    as="h1"
+    sx={
+      Object {
+        "color": "primary",
+        "fontFamily": "heading",
+        "fontSize": Array [
+          2,
+          3,
+          4,
+        ],
+      }
+    }
+  >
+    TopBar
+  </ForwardRef>
+  <IconButtons />
+</Styled(div)>
+`;

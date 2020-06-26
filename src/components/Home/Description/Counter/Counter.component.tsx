@@ -15,13 +15,13 @@ export const Counter: React.FC = () => {
         justifyContent: 'flex-end'
       }}
     >
-      <CounterButton data-testid="increment" onClick={() => dispatch(increment())}>
+      <CounterButton dataTestId="increment" onClick={() => dispatch(increment())}>
         +
       </CounterButton>
       <Text as="p" sx={{ display: 'inline-block', mx: 2, my: 0, p: 0 }}>
         Count: {counter}
       </Text>
-      <CounterButton data-testid="decrement" onClick={() => dispatch(decrement())}>
+      <CounterButton dataTestId="decrement" onClick={() => dispatch(decrement())}>
         -
       </CounterButton>
     </Flex>

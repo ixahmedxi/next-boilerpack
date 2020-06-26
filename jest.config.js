@@ -10,6 +10,7 @@ module.exports = {
   },
   testEnvironment: 'jsdom',
   projects: ['<rootDir>'],
+  setupFilesAfterEnv: ['./src/setupTests.ts'],
   coverageDirectory: './coverage',
   moduleFileExtensions: ['js', 'ts', 'tsx', 'json'],
   testPathIgnorePatterns: ['<rootDir>[/\\\\](node_modules|.next|cypress)[/\\\\]'],

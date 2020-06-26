@@ -2,17 +2,20 @@ import { Button } from 'theme-ui'
 
 export const CounterButton: React.FC<{
   onClick: () => { payload: undefined; type: string }
-}> = ({ onClick, children }) => {
+  dataTestId?: string
+}> = ({ onClick, children, dataTestId }) => {
   return (
     <Button
+      data-testid={dataTestId}
       onClick={onClick}
+      as="button"
       sx={{
         m: 0,
         p: 0,
         borderRadius: 500,
         outline: 'none',
-        width: '32px',
-        height: '32px',
+        width: 4,
+        height: 4,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

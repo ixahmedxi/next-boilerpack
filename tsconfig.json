@@ -18,8 +18,9 @@
     "alwaysStrict": true,
     "baseUrl": ".",
     "paths": {
+      "test-utils": ["src/utils/testUtils"],
       "@src/*": ["src/*"],
-      "@shared": ["src/components/shared/index"],
+      "@shared/*": ["src/components/shared/*"],
       "@components/*": ["src/components/*"]
     }
   },

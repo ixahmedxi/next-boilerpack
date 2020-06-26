@@ -18,6 +18,8 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
+    'plugin:testing-library/react',
+    'plugin:jest-dom/recommended',
     'prettier/react',
     'prettier/@typescript-eslint'
   ],
@@ -51,6 +53,15 @@ module.exports = {
     'react/prop-types': 0,
 
     // helps in creating better organised components
-    'react/destructuring-assignment': 2
+    'react/destructuring-assignment': 2,
+
+    // conflicts with the custom render function
+    '@typescript-eslint/no-unsafe-assignment': 0,
+
+    // conflicts with the custom render function
+    '@typescript-eslint/no-unsafe-call': 0,
+
+    // react-testing-library can test without expect
+    'jest/expect-expect': 0
   }
 }

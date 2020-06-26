@@ -1,17 +1,12 @@
 import { Container as ThemUiContainer } from 'theme-ui'
 
-export const Container: React.FC<{ fluid?: boolean }> = ({
-  children,
-  fluid
-}) => {
+export const Container: React.FC<{ fluid?: boolean }> = ({ children, fluid }) => {
   return (
     <ThemUiContainer
       as="div"
       sx={{
         maxWidth:
-          fluid === true
-            ? undefined
-            : ['100%', '540px', '720px', '960px', '1140px', '1320px'],
+          fluid === true ? undefined : ['100%', '540px', '720px', '960px', '1140px', '1320px'],
         m: '0 auto',
         px: 2
       }}

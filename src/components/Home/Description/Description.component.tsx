@@ -19,8 +19,8 @@ export const Description: React.FC = () => {
           display: 'inline-block'
         }}
       >
-        An opinionated TypeScript based React Next.js, Redux and ThemeUI
-        boilerplate that ensures type safety and testability.
+        An opinionated TypeScript based React Next.js, Redux and ThemeUI boilerplate that ensures
+        type safety and testability.
       </Text>
       <Counter />
     </Flex>

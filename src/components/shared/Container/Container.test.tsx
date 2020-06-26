@@ -3,13 +3,11 @@ import { cleanup, render } from 'test-utils'
 import { Container } from './Container.component'
 
 describe('Container component', () => {
-  afterEach(async () => {
-    await cleanup()
-  })
+  afterEach(cleanup)
 
-  it('renders', () => {
+  it('renders children', () => {
     const { getByText } = render(<Container>Container component</Container>)
-    expect(getByText('Container component')).toBeInTheDocument()
+    getByText('Container component')
   })
 
   it('renders with correct styling', () => {

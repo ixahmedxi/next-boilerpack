@@ -1,10 +1,16 @@
+import { store } from '@src/store'
 import { theme } from '@src/theme'
 import { render, RenderOptions, RenderResult } from '@testing-library/react'
 import React from 'react'
+import { Provider } from 'react-redux'
 import { ThemeProvider } from 'theme-ui'
 
 const AllTheProviders: React.FC = ({ children }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  return (
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+    </Provider>
+  )
 }
 
 const customRender = (

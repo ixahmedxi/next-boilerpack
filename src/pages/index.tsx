@@ -1,5 +1,7 @@
-import { Description, TopBar } from '@components/Home'
-import { Container, Layout } from '@shared'
+import { Description } from '@components/Home/Description/Description.component'
+import { TopBar } from '@components/Home/TopBar/TopBar.component'
+import { Container } from '@shared/Container/Container.component'
+import { Layout } from '@shared/Layout/Layout.component'
 import { Box } from 'theme-ui'
 
 const Index: React.FC = () => {

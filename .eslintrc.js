@@ -51,6 +51,10 @@ module.exports = {
     'react/prop-types': 0,
 
     // helps in creating better organised components
-    'react/destructuring-assignment': 2
+    'react/destructuring-assignment': 2,
+
+    '@typescript-eslint/no-unsafe-assignment': 0,
+
+    '@typescript-eslint/no-unsafe-call': 0
   }
 }

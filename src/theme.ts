@@ -34,7 +34,7 @@ export const theme = {
       transition: '0.2s ease-out'
     }
   },
-  fontSizes: [12, 16, 24, 32, 40, 48],
+  fontSizes: [12, 16, 24, 32, 40, 48, 56, 64],
   space: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96],
   sizes: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96],
   // Same breakpoints as bootstrap v5

@@ -14,13 +14,16 @@ export const Description: React.FC = () => {
         as="p"
         sx={{
           lineHeight: 1.5,
-          fontSize: [0, 1],
-          flex: 1,
+          fontSize: [0, 0, 1],
+          flex: 2,
           display: 'inline-block'
         }}
       >
-        An opinionated TypeScript based React Next.js, Redux and ThemeUI boilerplate that ensures
-        type safety and testability.
+        A TypeScript based React Next.js, Redux & ThemeUI boilerplate to make starting a new project
+        fast{' '}
+        <span role="img" aria-label="Emojis">
+          🤩 🥳
+        </span>
       </Text>
       <Counter />
     </Flex>

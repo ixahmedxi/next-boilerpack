@@ -23,7 +23,7 @@ describe('Counter Button component', () => {
         Button
       </CounterButton>
     )
-    expect(getByTestId('button')).toHaveStyleRule('width', `${theme.space[4]}px`)
-    expect(getByTestId('button')).toHaveStyleRule('height', `${theme.space[4]}px`)
+    expect(getByTestId('button')).toHaveStyleRule('width', `${theme.space[3]}px`)
+    expect(getByTestId('button')).toHaveStyleRule('height', `${theme.space[3]}px`)
   })
 })

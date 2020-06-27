@@ -18,7 +18,7 @@ export const Counter: React.FC = () => {
       <CounterButton dataTestId="increment" onClick={() => dispatch(increment())}>
         +
       </CounterButton>
-      <Text as="p" sx={{ display: 'inline-block', mx: 2, my: 0, p: 0 }}>
+      <Text as="p" sx={{ display: 'inline-block', mx: 2, my: 0, p: 0, fontSize: [0, 0, 1] }}>
         Count: {counter}
       </Text>
       <CounterButton dataTestId="decrement" onClick={() => dispatch(decrement())}>

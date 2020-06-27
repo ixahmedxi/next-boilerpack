@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Docs component matches snapshot 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  line-height: 2;
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-0 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    font-size: 16px;
+  }
+}
+
+<div>
+  <p
+    class="emotion-0"
+  >
+    P Component
+  </p>
+</div>
+`;

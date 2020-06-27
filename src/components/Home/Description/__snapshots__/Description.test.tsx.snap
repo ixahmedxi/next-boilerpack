@@ -24,12 +24,11 @@ exports[`Description Component matches snapshot 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  line-height: 1.5;
-  font-size: 12px;
   -webkit-flex: 2;
   -ms-flex: 2;
   flex: 2;
-  display: inline-block;
+  line-height: 2;
+  font-size: 12px;
 }
 
 @media screen and (min-width:576px) {

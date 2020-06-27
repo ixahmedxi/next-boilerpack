@@ -1,22 +1,28 @@
-export const theme = {
+import { darken, lighten } from 'polished'
+import { Theme } from 'theme-ui'
+
+export const theme: Theme = {
   useColorSchemeMediaQuery: true,
   colors: {
     primary: '#657eea',
     secondary: '#37b3ac',
     text: '#111',
     background: '#fff',
+    muted: darken(0.1, '#fff'),
     modes: {
       dark: {
         primary: '#657eea',
         secondary: '#37b3ac',
         text: '#fff',
-        background: '#111'
+        background: '#111',
+        muted: lighten(0.1, '#111')
       },
       light: {
         primary: '#657eea',
         secondary: '#37b3ac',
         text: '#111',
-        background: '#fff'
+        background: '#fff',
+        muted: darken(0.1, '#fff')
       }
     }
   },
@@ -25,6 +31,10 @@ export const theme = {
       'Open Sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading:
       'Staatliches, Open Sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
+  },
+  fontWeights: {
+    body: 400,
+    heading: 600
   },
   styles: {
     root: {
@@ -37,6 +47,7 @@ export const theme = {
   fontSizes: [12, 16, 24, 32, 40, 48, 56, 64],
   space: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96],
   sizes: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96],
+  lineHeights: [1, 1.5, 2, 2.5, 3],
   // Same breakpoints as bootstrap v5
   breakpoints: ['576px', '768px', '992px', '1200px', '1400px']
 }

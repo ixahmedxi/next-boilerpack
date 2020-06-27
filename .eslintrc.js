@@ -43,6 +43,11 @@ module.exports = {
       }
     ],
 
+    '@typescript-eslint/no-unused-vars': [
+      1,
+      { vars: 'all', args: 'all', varsIgnorePattern: '^jsx$' }
+    ],
+
     // Next.js does not need React to be in the scope
     'react/react-in-jsx-scope': 0,
 

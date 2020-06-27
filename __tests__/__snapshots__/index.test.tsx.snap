@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home Page matches snapshot 1`] = `
-.emotion-13 {
+.emotion-39 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -16,51 +16,54 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-13 {
+  .emotion-39 {
     max-width: 540px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-13 {
+  .emotion-39 {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width:992px) {
-  .emotion-13 {
+  .emotion-39 {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .emotion-13 {
+  .emotion-39 {
     max-width: 1140px;
   }
 }
 
 @media screen and (min-width:1400px) {
-  .emotion-13 {
+  .emotion-39 {
     max-width: 1320px;
   }
 }
 
-.emotion-12 {
+.emotion-38 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
   padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 @media screen and (min-width:576px) {
-  .emotion-12 {
+  .emotion-38 {
     padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-12 {
+  .emotion-38 {
     padding-top: 48px;
+    padding-bottom: 48px;
   }
 }
 
@@ -181,12 +184,11 @@ exports[`Home Page matches snapshot 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  line-height: 1.5;
-  font-size: 12px;
   -webkit-flex: 2;
   -ms-flex: 2;
   flex: 2;
-  display: inline-block;
+  line-height: 2;
+  font-size: 12px;
 }
 
 @media screen and (min-width:576px) {
@@ -296,13 +298,175 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
+.emotion-14 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: 32px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-14 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-14 {
+    margin-top: 40px;
+  }
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-secondary,#37b3ac);
+  font-family: Staatliches,Open Sans,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-12 {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-12 {
+    padding-bottom: 16px;
+  }
+}
+
+.emotion-13 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  line-height: 2;
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-13 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-13 {
+    font-size: 16px;
+  }
+}
+
+.emotion-30 {
+  margin: 0;
+  padding-top: 8px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-30 {
+    padding-top: 8px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-30 {
+    padding-top: 16px;
+  }
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-primary,#657eea);
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-color: var(--theme-ui-colors-primary,#657eea);
+  font-size: 12px;
+  padding-top: 0;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-20 {
+    font-size: 12px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-20 {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+}
+
+.emotion-35 {
+  background-color: var(--theme-ui-colors-muted,#e6e6e6);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-35 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.emotion-34 {
+  line-height: 2;
+  color: var(--theme-ui-colors-text,#111);
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-34 {
+    font-size: 16px;
+  }
+}
+
+.emotion-36 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  opacity: 0.5;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 2;
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-36 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-36 {
+    font-size: 16px;
+  }
+}
+
 <div>
   <div
-    class="emotion-13"
+    class="emotion-39"
     data-testid="container"
   >
     <div
-      class="emotion-12"
+      class="emotion-38"
     >
       <div
         class="emotion-5"
@@ -400,6 +564,188 @@ exports[`Home Page matches snapshot 1`] = `
             -
           </button>
         </div>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Motivation
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          Next.js is an amazing framework and I use it on the daily basis but the default boilerplate did not fulfill my needs after some time, it became time consuming to start a new project since it needed me to add lots of things to it like linting and testing. So I decided to create a boilerplate that has all of the features that I like and use to start projects fast and for other people to use it as well if they want to.
+        </p>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Assumptions
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          This boilerplate assumes that you have knowledge about React, Next.js, Redux, Jest and react-testing-library. This is not a beginner friendly boilerplate. For a beginner friendly boilerplate, the default Next.js one will be a better choice.
+        </p>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Features
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          The boilerplate comes with many libraries and tools set up out of the box to extend React's feature set, some of the tools included in the boilerplate are:
+        </p>
+        <ul
+          class="emotion-30"
+        >
+          <li>
+            <a
+              class="emotion-20"
+              href="https://redux.js.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Redux
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://redux-toolkit.js.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Redux Toolkit
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://theme-ui.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Theme UI
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://react-icons.github.io/react-icons/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              React Icons
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://jestjs.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Jest
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://testing-library.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              React Testing Library
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://eslint.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              ESLint
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://prettier.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Prettier
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://github.com/typicode/husky"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Husky
+            </a>
+          </li>
+          <li>
+            <a
+              class="emotion-20"
+              href="https://github.com/okonet/lint-staged"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Lint Staged
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Installation
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          To get started using next-boilerpack, firstly clone the repository and install the dependencies using your terminal by following the instructions below. 
+          &lt;project-name&gt; 
+          refers to the name of the project you are creating so replace it with whatever you want your project to be named.
+        </p>
+        <pre
+          class="emotion-35"
+        >
+          <code
+            class="emotion-34"
+          >
+            $ git clone https://github.com/ixahmedxi/next-boilerpack 
+            &lt;project-name&gt;
+            <br />
+            $ cd 
+            &lt;project-name&gt;
+            <br />
+            $ npm install
+          </code>
+        </pre>
+        <p
+          class="emotion-36"
+        >
+          You can use yarn install instead of npm install of course
+        </p>
       </div>
     </div>
   </div>

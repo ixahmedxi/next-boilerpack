@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Getting Started Component matches snapshot 1`] = `
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: 32px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-7 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-7 {
+    margin-top: 40px;
+  }
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-secondary,#37b3ac);
+  font-family: Staatliches,Open Sans,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-0 {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    padding-bottom: 16px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  line-height: 2;
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-1 {
+    font-size: 16px;
+  }
+}
+
+.emotion-3 {
+  background-color: var(--theme-ui-colors-muted,#e6e6e6);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.emotion-2 {
+  line-height: 2;
+  color: var(--theme-ui-colors-text,#111);
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-2 {
+    font-size: 16px;
+  }
+}
+
+<div>
+  <div
+    class="emotion-7"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Getting Started
+    </h1>
+    <p
+      class="emotion-1"
+    >
+      To get started using this boilerplate, it is adviced to delete all of the components created to showcase this boilerplate that way you can start from a clean point, following the instructions below this can be done easily.
+    </p>
+    <pre
+      class="emotion-3"
+    >
+      <code
+        class="emotion-2"
+      >
+        $ rm -rf src/components/Home
+        <br />
+        $ rm -rf src/components/shared/P
+        <br />
+        $ rm -rf src/components/shared/Pre
+      </code>
+    </pre>
+    <p
+      class="emotion-1"
+    >
+      You should then modify the src/pages/index.tsx file to have an empty component so that you do not get errors about not finding components, the empty component would look like this.
+    </p>
+    <pre
+      class="emotion-3"
+    >
+      <code
+        class="emotion-2"
+      >
+        const Index: React.FC = () =&gt; {
+  return (
+    &lt;Layout&gt;
+      &lt;Container&gt;
+        &lt;h1&gt;Hello World&lt;/h1&gt;
+      &lt;/Container&gt;
+    &lt;/Layout&gt;
+  )
+}
+
+export default Index
+      </code>
+    </pre>
+  </div>
+</div>
+`;

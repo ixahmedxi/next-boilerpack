@@ -1,6 +1,5 @@
-/* @jsx jsx */
+import { Pre } from '@components/shared/Pre/Pre.component'
 import { P } from '@shared/P/P.component'
-import { jsx } from 'theme-ui'
 import { Section } from '../Section/Section.component'
 
 export const Installation: React.FC = () => {
@@ -12,22 +11,11 @@ export const Installation: React.FC = () => {
         refers to the name of the project you are creating so replace it with whatever you want your
         project to be named.
       </P>
-      <pre
-        sx={{
-          backgroundColor: 'muted',
-          py: [1, 2],
-          px: [2, 3],
-          borderRadius: 10,
-          whiteSpace: 'pre-wrap',
-          wordWrap: 'break-word'
-        }}
-      >
-        <code sx={{ lineHeight: 2, color: 'text', fontSize: [0, 1] }}>
-          $ git clone https://github.com/ixahmedxi/next-boilerpack {'<project-name>'}
-          <br />$ cd {'<project-name>'}
-          <br />$ npm install
-        </code>
-      </pre>
+      <Pre>
+        $ git clone https://github.com/ixahmedxi/next-boilerpack {'<project-name>'}
+        <br />$ cd {'<project-name>'}
+        <br />$ npm install
+      </Pre>
       <P esx={{ opacity: 0.5, fontWeight: 'heading', fontStyle: 'italic' }}>
         You can use yarn install instead of npm install of course
       </P>

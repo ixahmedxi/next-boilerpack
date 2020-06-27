@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home Page matches snapshot 1`] = `
-.emotion-39 {
+.emotion-56 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -16,36 +16,36 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-39 {
+  .emotion-56 {
     max-width: 540px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-39 {
+  .emotion-56 {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width:992px) {
-  .emotion-39 {
+  .emotion-56 {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .emotion-39 {
+  .emotion-56 {
     max-width: 1140px;
   }
 }
 
 @media screen and (min-width:1400px) {
-  .emotion-39 {
+  .emotion-56 {
     max-width: 1320px;
   }
 }
 
-.emotion-38 {
+.emotion-55 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -54,14 +54,14 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-38 {
+  .emotion-55 {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-38 {
+  .emotion-55 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -460,13 +460,71 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
+.emotion-54 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-54 {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-54 {
+    padding-top: 64px;
+  }
+}
+
+.emotion-53 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-primary,#657eea);
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-53 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-53 {
+    font-size: 16px;
+  }
+}
+
+.emotion-52 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-primary,#657eea);
+}
+
 <div>
   <div
-    class="emotion-39"
+    class="emotion-56"
     data-testid="container"
   >
     <div
-      class="emotion-38"
+      class="emotion-55"
     >
       <div
         class="emotion-5"
@@ -746,6 +804,146 @@ exports[`Home Page matches snapshot 1`] = `
         >
           You can use yarn install instead of npm install of course
         </p>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Getting Started
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          To get started using this boilerplate, it is adviced to delete all of the components created to showcase this boilerplate that way you can start from a clean point, following the instructions below this can be done easily.
+        </p>
+        <pre
+          class="emotion-35"
+        >
+          <code
+            class="emotion-34"
+          >
+            $ rm -rf src/components/Home
+            <br />
+            $ rm -rf src/components/shared/P
+            <br />
+            $ rm -rf src/components/shared/Pre
+          </code>
+        </pre>
+        <p
+          class="emotion-13"
+        >
+          You should then modify the src/pages/index.tsx file to have an empty component so that you do not get errors about not finding components, the empty component would look like this.
+        </p>
+        <pre
+          class="emotion-35"
+        >
+          <code
+            class="emotion-34"
+          >
+            const Index: React.FC = () =&gt; {
+  return (
+    &lt;Layout&gt;
+      &lt;Container&gt;
+        &lt;h1&gt;Hello World&lt;/h1&gt;
+      &lt;/Container&gt;
+    &lt;/Layout&gt;
+  )
+}
+
+export default Index
+          </code>
+        </pre>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          Configuration
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          The boilerplate was made on the fact that the chance for someone to be using the same set of things as I am is very small and that is why I made it so that removing or replacing any of the pre-configured libs installed is not confusing nor complicated. 
+          <br />
+           
+          <br />
+          The configuration for ESLint, Jest, Prettier, Husky, lint-staged can all be found in their respective files in the root directory of the boilerplate except husky & lint-staged where their configuration is in the package.json file. 
+          <br />
+           
+          <br />
+           The redux store, theme file and test setup files can be found in the main src folder so if you do not want redux for example deleting the file and the Provider component from the _app file will do just that.
+          <br />
+           
+          <br />
+          The theme file (src/theme.ts) is responsible for making sure the design of the website is consistent in spacing and sizing as well as making the ability to have multiple color themes for the website really easy to implement. All of the ways for using the theme file and theme-ui overall can be found in there docs. Also I know most people are used to styled-components or emotion but personally since I have tried theme-ui I haven't looked back for the simple fact that it handles responsiveness really well.
+          <br />
+           
+          <br />
+          I Have included a Container component in the shared folder that resembles the .container class in bootstrap to give the option of having that nice wrapping around the pages. It is not a must use obviously but I personally always use it.
+        </p>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <h1
+          class="emotion-12"
+        >
+          License
+        </h1>
+        <p
+          class="emotion-13"
+        >
+          MIT License 
+          <br />
+          <br />
+          Copyright (c) 2020 Ahmed Elsakaan 
+          <br />
+          <br />
+          Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+           
+          <br />
+          <br />
+          The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+          <br />
+          <br />
+          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        </p>
+      </div>
+      <div
+        class="emotion-54"
+      >
+        <div
+          class="emotion-53"
+        >
+          Made with 
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+            />
+          </svg>
+           by
+           
+          <a
+            class="emotion-52"
+            href="https://twitter.com/ixahmedxii"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Ahmed Elsakaan
+          </a>
+        </div>
       </div>
     </div>
   </div>

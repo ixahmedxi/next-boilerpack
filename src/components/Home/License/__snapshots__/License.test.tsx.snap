@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`License component matches snapshot 1`] = `
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: 32px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-2 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2 {
+    margin-top: 40px;
+  }
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-secondary,#37b3ac);
+  font-family: Staatliches,Open Sans,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-0 {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    padding-bottom: 16px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  line-height: 2;
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-1 {
+    font-size: 16px;
+  }
+}
+
+<div>
+  <div
+    class="emotion-2"
+  >
+    <h1
+      class="emotion-0"
+    >
+      License
+    </h1>
+    <p
+      class="emotion-1"
+    >
+      MIT License 
+      <br />
+      <br />
+      Copyright (c) 2020 Ahmed Elsakaan 
+      <br />
+      <br />
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+       
+      <br />
+      <br />
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+      <br />
+      <br />
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </p>
+  </div>
+</div>
+`;

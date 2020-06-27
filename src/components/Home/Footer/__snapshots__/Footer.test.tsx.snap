@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component matches snapshot 1`] = `
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-2 {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2 {
+    padding-top: 64px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-primary,#657eea);
+  font-size: 12px;
+}
+
+@media screen and (min-width:576px) {
+  .emotion-1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-1 {
+    font-size: 16px;
+  }
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-primary,#657eea);
+}
+
+<div>
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-1"
+    >
+      Made with 
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+        />
+      </svg>
+       by
+       
+      <a
+        class="emotion-0"
+        href="https://twitter.com/ixahmedxii"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Ahmed Elsakaan
+      </a>
+    </div>
+  </div>
+</div>
+`;

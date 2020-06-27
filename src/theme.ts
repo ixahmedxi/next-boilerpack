@@ -1,29 +1,6 @@
 import { darken, lighten } from 'polished'
-import { Theme } from 'theme-ui'
 
-interface PaletteType {
-  primary: string
-  secondary: string
-  text: string
-  background: string
-  muted: string
-}
-
-interface ITheme extends Theme {
-  colors: {
-    primary: string
-    secondary: string
-    text: string
-    background: string
-    muted: string
-    modes: {
-      dark: PaletteType
-      light: PaletteType
-    }
-  }
-}
-
-export const theme: ITheme = {
+export const theme = {
   useColorSchemeMediaQuery: true,
   colors: {
     primary: '#657eea',
@@ -73,3 +50,5 @@ export const theme: ITheme = {
   // Same breakpoints as bootstrap v5
   breakpoints: ['576px', '768px', '992px', '1200px', '1400px']
 }
+
+export type ThemeType = typeof theme

@@ -19,7 +19,7 @@ export const ThemeSwitcher: React.FC = () => {
   return (
     <FiMoon
       data-testid="moon-icon"
-      onClick={() => toggleTheme(mode, Object.keys(theme.colors.modes), setMode)}
+      onClick={() => toggleTheme(mode, Object.keys(theme.colors?.modes), setMode)}
       size="100%"
     />
   )

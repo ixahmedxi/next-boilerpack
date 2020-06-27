@@ -1,7 +1,29 @@
 import { darken, lighten } from 'polished'
 import { Theme } from 'theme-ui'
 
-export const theme: Theme = {
+interface PaletteType {
+  primary: string
+  secondary: string
+  text: string
+  background: string
+  muted: string
+}
+
+interface ITheme extends Theme {
+  colors: {
+    primary: string
+    secondary: string
+    text: string
+    background: string
+    muted: string
+    modes: {
+      dark: PaletteType
+      light: PaletteType
+    }
+  }
+}
+
+export const theme: ITheme = {
   useColorSchemeMediaQuery: true,
   colors: {
     primary: '#657eea',

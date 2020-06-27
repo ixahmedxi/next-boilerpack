@@ -1,9 +1,9 @@
 import { render } from 'test-utils'
-import NotFound from './404'
+import Index from '../src/pages'
 
-describe('404 Page', () => {
+describe('Home Page', () => {
   it('matches snapshot', () => {
-    const { container } = render(<NotFound />)
+    const { container } = render(<Index />)
     expect(container).toMatchSnapshot()
   })
 })

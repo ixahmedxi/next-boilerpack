@@ -12,7 +12,6 @@ export const CounterButton: React.FC<{
       sx={{
         m: 0,
         p: 0,
-        borderRadius: 500,
         outline: 'none',
         width: [3, 4],
         height: [3, 4],

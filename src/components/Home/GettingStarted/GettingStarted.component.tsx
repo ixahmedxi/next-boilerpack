@@ -21,7 +21,10 @@ export const GettingStarted: React.FC = () => {
         do not get errors about not finding components, the empty component would look like this.
       </P>
       <Pre>
-        {`const Index: React.FC = () => {
+        {`import { Layout } from '@shared/Layout/Layout.component'
+import { Container } from '@shared/Container/Container.component'
+
+const Index: React.FC = () => {
   return (
     <Layout>
       <Container>

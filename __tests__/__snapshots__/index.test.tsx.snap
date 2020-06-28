@@ -842,7 +842,10 @@ exports[`Home Page matches snapshot 1`] = `
           <code
             class="emotion-34"
           >
-            const Index: React.FC = () =&gt; {
+            import { Layout } from '@shared/Layout/Layout.component'
+import { Container } from '@shared/Container/Container.component'
+
+const Index: React.FC = () =&gt; {
   return (
     &lt;Layout&gt;
       &lt;Container&gt;

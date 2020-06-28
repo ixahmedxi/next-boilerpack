@@ -1,10 +1,12 @@
 # Next Boilerpack 🎒
 
+[![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/issues) [![GitHub stars](https://img.shields.io/github/stars/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/network) 
+
 > A Next.js boilerplate with some cool stuff added to it to make starting a new project fast and easy as well as making the development process better. 🥳
 
 ## Motivation
 
-Next.js is an amazing framework and I use it on the daily basis but the default boilerplate did not fulfill my needs after some time, it became time consuming to start a new project since it needed me to add lots of things to it like linting and testing. So I decided to create a boilerplate that has all of the features that I like and use to start projects fast and for other people to use it as well if they want to.
+Next.js is an amazing framework and I use it on the daily basis but the default boilerplate did not fulfil my needs after some time, it became time consuming to start a new project since it needed me to add lots of things to it like linting and testing before actually starting the development process. So I decided to create a boilerplate that has all of the features that I like and use to start projects fast and for other people to use it as well. 
 
 ## Installing
 
@@ -16,7 +18,7 @@ $ npm install
 
 ## Documentation
 
-The documentation for the boilerplate can be found [here](https://next-boilerpack.vercel.app/)
+The [documentation](https://next-boilerpack.vercel.app/) for using and confiuguring the boilerplate to your liking can be found on the [official website](https://next-boilerpack.vercel.app/) of the project.
 
 ## Have Fun
 
@@ -24,7 +26,7 @@ Create something magical and most importantly have fun in the process. I would l
 
 ## Contributions
 
-Contributions are always welcome, if you have a suggestion create an issue and let's discuss it. If you have a fix for a bug submit a PR but make sure that all tests pass before doing so.
+Contributions are always welcome, please read the CONTRIBUTING.md file before making any changes or submitting a PR.
 
 ## License
 

@@ -36,6 +36,11 @@ const Index: React.FC = () => {
 
 export default Index`}
       </Pre>
+      <P>
+        Remember to also delete the counterReducer in the store.ts file so that redux does not
+        complain about not finding the reducer. You can replace the reducer with a dummy one as a
+        start so that redux does not throw errors.{' '}
+      </P>
     </Section>
   )
 }

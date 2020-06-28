@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home Page matches snapshot 1`] = `
-.emotion-56 {
+.emotion-57 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -16,36 +16,36 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-56 {
+  .emotion-57 {
     max-width: 540px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-56 {
+  .emotion-57 {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width:992px) {
-  .emotion-56 {
+  .emotion-57 {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .emotion-56 {
+  .emotion-57 {
     max-width: 1140px;
   }
 }
 
 @media screen and (min-width:1400px) {
-  .emotion-56 {
+  .emotion-57 {
     max-width: 1320px;
   }
 }
 
-.emotion-55 {
+.emotion-56 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -54,14 +54,14 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-55 {
+  .emotion-56 {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-55 {
+  .emotion-56 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -460,7 +460,7 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
-.emotion-54 {
+.emotion-55 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -480,18 +480,18 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-54 {
+  .emotion-55 {
     padding-top: 48px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-54 {
+  .emotion-55 {
     padding-top: 64px;
   }
 }
 
-.emotion-53 {
+.emotion-54 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -500,18 +500,18 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-53 {
+  .emotion-54 {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-53 {
+  .emotion-54 {
     font-size: 16px;
   }
 }
 
-.emotion-52 {
+.emotion-53 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -520,11 +520,11 @@ exports[`Home Page matches snapshot 1`] = `
 
 <div>
   <div
-    class="emotion-56"
+    class="emotion-57"
     data-testid="container"
   >
     <div
-      class="emotion-55"
+      class="emotion-56"
     >
       <div
         class="emotion-5"
@@ -858,6 +858,12 @@ const Index: React.FC = () =&gt; {
 export default Index
           </code>
         </pre>
+        <p
+          class="emotion-13"
+        >
+          Remember to also delete the counterReducer in the store.ts file so that redux does not complain about not finding the reducer. You can replace the reducer with a dummy one as a start so that redux does not throw errors.
+           
+        </p>
       </div>
       <div
         class="emotion-14"
@@ -917,10 +923,10 @@ export default Index
         </p>
       </div>
       <div
-        class="emotion-54"
+        class="emotion-55"
       >
         <div
-          class="emotion-53"
+          class="emotion-54"
         >
           Made with 
           <svg
@@ -939,7 +945,7 @@ export default Index
            by
            
           <a
-            class="emotion-52"
+            class="emotion-53"
             href="https://twitter.com/ixahmedxii"
             rel="noopener noreferrer"
             target="_blank"

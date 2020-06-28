@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Getting Started Component matches snapshot 1`] = `
-.emotion-7 {
+.emotion-8 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -9,13 +9,13 @@ exports[`Getting Started Component matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-7 {
+  .emotion-8 {
     margin-top: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-7 {
+  .emotion-8 {
     margin-top: 40px;
   }
 }
@@ -97,7 +97,7 @@ exports[`Getting Started Component matches snapshot 1`] = `
 
 <div>
   <div
-    class="emotion-7"
+    class="emotion-8"
   >
     <h1
       class="emotion-0"
@@ -149,6 +149,12 @@ const Index: React.FC = () =&gt; {
 export default Index
       </code>
     </pre>
+    <p
+      class="emotion-1"
+    >
+      Remember to also delete the counterReducer in the store.ts file so that redux does not complain about not finding the reducer. You can replace the reducer with a dummy one as a start so that redux does not throw errors.
+       
+    </p>
   </div>
 </div>
 `;

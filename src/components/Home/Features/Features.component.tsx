@@ -45,6 +45,10 @@ export const Features: React.FC = () => {
     {
       name: 'Lint Staged',
       link: 'https://github.com/okonet/lint-staged'
+    },
+    {
+      name: 'Next SEO',
+      link: 'https://github.com/garmeeh/next-seo'
     }
   ]
   return (

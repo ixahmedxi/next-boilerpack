@@ -9,27 +9,24 @@ import { License } from '@components/Home/License/License.component'
 import { Motivation } from '@components/Home/Motivation/Motivation.component'
 import { TopBar } from '@components/Home/TopBar/TopBar.component'
 import { Container } from '@shared/Container/Container.component'
-import { Layout } from '@shared/Layout/Layout.component'
 import { Box } from 'theme-ui'
 
 const Index: React.FC = () => {
   return (
-    <Layout title="Next Boilerpack">
-      <Container>
-        <Box sx={{ py: [2, 4, 6] }}>
-          <TopBar title="nextjs boilerpack" />
-          <Description />
-          <Motivation />
-          <Assumptions />
-          <Features />
-          <Installation />
-          <GettingStarted />
-          <Configuration />
-          <License />
-          <Footer />
-        </Box>
-      </Container>
-    </Layout>
+    <Container>
+      <Box sx={{ py: [2, 4, 6] }}>
+        <TopBar title="nextjs boilerpack" />
+        <Description />
+        <Motivation />
+        <Assumptions />
+        <Features />
+        <Installation />
+        <GettingStarted />
+        <Configuration />
+        <License />
+        <Footer />
+      </Box>
+    </Container>
   )
 }
 

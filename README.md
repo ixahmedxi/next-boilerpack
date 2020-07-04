@@ -1,4 +1,6 @@
-# Next Boilerpack 🎒
+<p align="center">
+  <img src="https://rawcdn.githack.com/ixahmedxi/next-boilerpack/57bdfdd80ad131178ad90feee62718f28aea3b2f/src/components/Home/TopBar/logo.svg" alt="Logo">
+</p>
 
 [![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/issues) [![GitHub stars](https://img.shields.io/github/stars/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/network)
 

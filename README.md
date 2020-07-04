@@ -16,7 +16,10 @@ Next.js is an amazing framework and I use it on the daily basis but the default 
 git clone https://github.com/ixahmedxi/next-boilerpack <project-name>
 cd <project-name>
 npm install
+npm run dev
 ```
+
+Visiting `http://localhost:3000` should then result in seeing the docs website.
 
 ## Documentation
 

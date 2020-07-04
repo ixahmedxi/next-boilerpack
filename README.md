@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/issues) [![GitHub stars](https://img.shields.io/github/stars/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/network)
 
-> A Next.js boilerplate with some cool stuff added to it to make starting a new project fast and easy as well as making the development process better. 🥳
+> A Next.js boilerplate with extra libraries and tools added to give a more feature full start to new next.js projects without needing the time to add all of them manually. 🥳
 
 ## Motivation
 

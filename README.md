@@ -1,19 +1,19 @@
 # Next Boilerpack 🎒
 
-[![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/issues) [![GitHub stars](https://img.shields.io/github/stars/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/network) 
+[![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/issues) [![GitHub stars](https://img.shields.io/github/stars/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ixahmedxi/next-boilerpack?style=for-the-badge)](https://github.com/ixahmedxi/next-boilerpack/network)
 
 > A Next.js boilerplate with some cool stuff added to it to make starting a new project fast and easy as well as making the development process better. 🥳
 
 ## Motivation
 
-Next.js is an amazing framework and I use it on the daily basis but the default boilerplate did not fulfil my needs after some time, it became time consuming to start a new project since it needed me to add lots of things to it like linting and testing before actually starting the development process. So I decided to create a boilerplate that has all of the features that I like and use to start projects fast and for other people to use it as well. 
+Next.js is an amazing framework and I use it on the daily basis but the default boilerplate did not fulfil my needs after some time, it became time consuming to start a new project since it needed me to add lots of things to it like linting and testing before actually starting the development process. So I decided to create a boilerplate that has all of the features that I like and use to start projects fast and for other people to use it as well.
 
 ## Installing
 
 ```zsh
-$ git clone https://github.com/ixahmedxi/next-boilerpack <project-name>
-$ cd <project-name>
-$ npm install
+git clone https://github.com/ixahmedxi/next-boilerpack <project-name>
+cd <project-name>
+npm install
 ```
 
 ## Documentation

@@ -19,7 +19,7 @@ npm install
 npm run dev
 ```
 
-Visiting `http://localhost:3000` should then result in seeing the docs website.
+Visiting `http://localhost:3000` should then result in seeing the same thing as the docs website.
 
 ## Documentation
 

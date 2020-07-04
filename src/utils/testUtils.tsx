@@ -1,6 +1,6 @@
-import { store } from '@src/store'
-import { theme } from '@src/theme'
+import { store } from '@store'
 import { render, RenderOptions, RenderResult } from '@testing-library/react'
+import { theme } from '@theme'
 import React from 'react'
 import { Provider } from 'react-redux'
 import { ThemeProvider } from 'theme-ui'

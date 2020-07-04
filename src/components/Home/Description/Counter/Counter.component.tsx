@@ -1,4 +1,4 @@
-import { useStoreDispatch, useStoreSelector } from '@src/store'
+import { useStoreDispatch, useStoreSelector } from '@store'
 import { Flex, Text } from 'theme-ui'
 import { CounterButton } from './Button/Button.component'
 import { decrement, increment } from './Counter.slice'

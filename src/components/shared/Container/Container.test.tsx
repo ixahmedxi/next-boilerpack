@@ -1,4 +1,4 @@
-import { theme } from '@src/theme'
+import { theme } from '@theme'
 import { cleanup, render } from 'test-utils'
 import { Container } from './Container.component'
 
@@ -12,8 +12,8 @@ describe('Container component', () => {
 
   it('renders with correct styling', () => {
     const { getByTestId } = render(<Container>Container component</Container>)
-    expect(getByTestId('container')).toHaveStyleRule('padding-left', `${theme.space[2]}px`)
-    expect(getByTestId('container')).toHaveStyleRule('padding-right', `${theme.space[2]}px`)
+    expect(getByTestId('container')).toHaveStyleRule('padding-left', String(theme.space[2]) + 'px')
+    expect(getByTestId('container')).toHaveStyleRule('padding-right', String(theme.space[2]) + 'px')
     expect(getByTestId('container')).toHaveStyleRule('margin', '0 auto')
     expect(getByTestId('container')).toHaveStyleRule('max-width', '100%')
   })

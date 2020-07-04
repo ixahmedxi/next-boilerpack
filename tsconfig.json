@@ -19,9 +19,11 @@
     "baseUrl": ".",
     "paths": {
       "test-utils": ["src/utils/testUtils"],
-      "@src/*": ["src/*"],
+      "@public/*": ["public/*"],
       "@shared/*": ["src/components/shared/*"],
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@store": ["src/store.ts"],
+      "@theme": ["src/theme.ts"]
     }
   },
   "exclude": ["node_modules"],

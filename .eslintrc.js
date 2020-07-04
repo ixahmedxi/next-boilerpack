@@ -67,6 +67,8 @@ module.exports = {
     '@typescript-eslint/no-unsafe-call': 0,
 
     // react-testing-library can test without expect
-    'jest/expect-expect': 0
+    'jest/expect-expect': 0,
+
+    '@typescript-eslint/no-unsafe-member-access': 0
   }
 }

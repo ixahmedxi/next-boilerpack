@@ -15,7 +15,7 @@ const Index: React.FC = () => {
   return (
     <Container>
       <Box sx={{ py: [2, 4, 6] }}>
-        <TopBar title="nextjs boilerpack" />
+        <TopBar />
         <Description />
         <Motivation />
         <Assumptions />

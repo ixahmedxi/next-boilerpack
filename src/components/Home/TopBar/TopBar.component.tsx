@@ -1,7 +1,10 @@
-import { Flex, Text } from 'theme-ui'
-import { IconButtons } from './IconButtons/IconButtons.component'
+/* @jsx jsx */
 
-export const TopBar: React.FC<{ title: string }> = ({ title }) => {
+import { Flex, jsx } from 'theme-ui'
+import { IconButtons } from './IconButtons/IconButtons.component'
+import Logo from './logo.svg'
+
+export const TopBar: React.FC = () => {
   return (
     <Flex
       sx={{
@@ -10,16 +13,7 @@ export const TopBar: React.FC<{ title: string }> = ({ title }) => {
         flexDirection: 'row'
       }}
     >
-      <Text
-        as="h1"
-        sx={{
-          fontSize: [2, 3, 4],
-          fontFamily: 'heading',
-          color: 'primary'
-        }}
-      >
-        {title}
-      </Text>
+      <Logo sx={{ fill: 'text' }} />
       <IconButtons />
     </Flex>
   )

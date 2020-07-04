@@ -1,9 +1,9 @@
-import { store } from '@src/store'
-import { theme } from '@src/theme'
 import { DefaultSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import { Provider } from 'react-redux'
 import { ThemeProvider } from 'theme-ui'
+import { store } from '../store'
+import { theme } from '../theme'
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

@@ -1,4 +1,4 @@
-import { theme } from '@src/theme'
+import { theme } from '@theme'
 import { Dispatch, SetStateAction } from 'react'
 import { FiMoon } from 'react-icons/fi'
 import { useColorMode } from 'theme-ui'

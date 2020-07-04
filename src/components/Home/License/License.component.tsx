@@ -1,4 +1,4 @@
-import { P } from '@src/components/shared/P/P.component'
+import { P } from '@components/shared/P/P.component'
 import { Section } from '../Section/Section.component'
 
 export const License: React.FC = () => {

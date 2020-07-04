@@ -1,4 +1,4 @@
-import { theme } from '@src/theme'
+import { theme } from '@theme'
 import { cleanup, fireEvent, render } from 'test-utils'
 import { CounterButton } from './Button.component'
 
@@ -23,7 +23,7 @@ describe('Counter Button component', () => {
         Button
       </CounterButton>
     )
-    expect(getByTestId('button')).toHaveStyleRule('width', `${theme.space[3]}px`)
-    expect(getByTestId('button')).toHaveStyleRule('height', `${theme.space[3]}px`)
+    expect(getByTestId('button')).toHaveStyleRule('width', String(theme.space[3]) + 'px')
+    expect(getByTestId('button')).toHaveStyleRule('height', String(theme.space[3]) + 'px')
   })
 })

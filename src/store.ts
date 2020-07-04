@@ -1,5 +1,5 @@
+import { counterReducer } from '@components/Home/Description/Counter/Counter.slice'
 import { configureStore } from '@reduxjs/toolkit'
-import { counterReducer } from '@src/components/Home/Description/Counter/Counter.slice'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 import { combineReducers } from 'redux'
 

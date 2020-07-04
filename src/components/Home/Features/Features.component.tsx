@@ -1,5 +1,5 @@
 /* @jsx jsx */
-import { P } from '@src/components/shared/P/P.component'
+import { P } from '@components/shared/P/P.component'
 import React from 'react'
 import { jsx, Link } from 'theme-ui'
 import { Section } from '../Section/Section.component'
@@ -49,6 +49,10 @@ export const Features: React.FC = () => {
     {
       name: 'Next SEO',
       link: 'https://github.com/garmeeh/next-seo'
+    },
+    {
+      name: 'Next Images',
+      link: 'https://github.com/twopluszero/next-images'
     }
   ]
   return (

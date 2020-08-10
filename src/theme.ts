@@ -1,5 +1,3 @@
-import { darken, lighten } from 'polished'
-
 export const theme = {
   useColorSchemeMediaQuery: true,
   colors: {
@@ -7,21 +5,21 @@ export const theme = {
     secondary: '#37b3ac',
     text: '#111',
     background: '#fff',
-    muted: darken(0.1, '#fff'),
+    muted: '#e5e5e5',
     modes: {
       dark: {
         primary: '#657eea',
         secondary: '#37b3ac',
         text: '#fff',
         background: '#111',
-        muted: lighten(0.1, '#111')
+        muted: '#282828'
       },
       light: {
         primary: '#657eea',
         secondary: '#37b3ac',
         text: '#111',
         background: '#fff',
-        muted: darken(0.1, '#fff')
+        muted: '#e5e5e5'
       }
     }
   },

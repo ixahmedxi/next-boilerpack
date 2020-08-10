@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "ANALYZE=true next build",
     "start": "next start",
     "lint": "eslint \"./**/*.{ts,tsx}\" --fix",
     "format": "prettier --write \"./**/*.ts\" \"./**/*.tsx\"",
@@ -16,13 +16,13 @@
   "dependencies": {
     "next": "^9.4.4",
     "next-seo": "^4.7.1",
-    "polished": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^9.5.1",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",
     "@types/jest": "^26.0.0",

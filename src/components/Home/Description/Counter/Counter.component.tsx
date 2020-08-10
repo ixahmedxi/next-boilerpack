@@ -1,11 +1,9 @@
-import { useStoreDispatch, useStoreSelector } from '@store'
+import { useCounter } from '@contexts/counter'
 import { Flex, Text } from 'theme-ui'
 import { CounterButton } from './Button/Button.component'
-import { decrement, increment } from './Counter.slice'
 
 export const Counter: React.FC = () => {
-  const counter = useStoreSelector((state) => state.counter)
-  const dispatch = useStoreDispatch()
+  const { count, increment, decrement } = useCounter()
   return (
     <Flex
       sx={{
@@ -13,15 +11,14 @@ export const Counter: React.FC = () => {
         height: '100%',
         alignItems: 'center',
         justifyContent: 'flex-end'
-      }}
-    >
-      <CounterButton dataTestId="increment" onClick={() => dispatch(increment())}>
+      }}>
+      <CounterButton dataTestId='increment' onClick={() => increment()}>
         +
       </CounterButton>
-      <Text as="p" sx={{ display: 'inline-block', mx: 2, my: 0, p: 0, fontSize: [0, 0, 1] }}>
-        Count: {counter}
+      <Text as='p' sx={{ display: 'inline-block', mx: 2, my: 0, p: 0, fontSize: [0, 0, 1] }}>
+        Count: {count}
       </Text>
-      <CounterButton dataTestId="decrement" onClick={() => dispatch(decrement())}>
+      <CounterButton dataTestId='decrement' onClick={() => decrement()}>
         -
       </CounterButton>
     </Flex>

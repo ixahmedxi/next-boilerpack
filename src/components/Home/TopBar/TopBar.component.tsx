@@ -11,9 +11,8 @@ export const TopBar: React.FC = () => {
         alignItems: 'center',
         justifyContent: 'space-between',
         flexDirection: 'row'
-      }}
-    >
-      <Logo sx={{ fill: 'text' }} />
+      }}>
+      <Logo sx={{ '.text-fill': { fill: 'text' } }} />
       <IconButtons />
     </Flex>
   )

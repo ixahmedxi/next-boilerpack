@@ -8,8 +8,7 @@ export const Button: React.FC = ({ children }) => {
         height: [5, null, 6],
         cursor: 'pointer',
         outline: 'none'
-      }}
-    >
+      }}>
       {children}
     </IconButton>
   )

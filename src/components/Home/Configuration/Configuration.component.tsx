@@ -3,7 +3,7 @@ import { Section } from '../Section/Section.component'
 
 export const Configuration: React.FC = () => {
   return (
-    <Section title="Configuration">
+    <Section title='Configuration'>
       <P>
         The boilerplate was made on the fact that the chance for someone to be using the same set of
         things as I am is very small and that is why I made it so that removing or replacing any of

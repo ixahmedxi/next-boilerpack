@@ -4,7 +4,7 @@ import { Section } from '../Section/Section.component'
 
 export const Installation: React.FC = () => {
   return (
-    <Section title="Installation">
+    <Section title='Installation'>
       <P>
         To get started using next-boilerpack, firstly clone the repository and install the
         dependencies using your terminal by following the instructions below. {'<project-name> '}

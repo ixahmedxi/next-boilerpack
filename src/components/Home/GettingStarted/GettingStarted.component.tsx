@@ -4,7 +4,7 @@ import { Section } from '../Section/Section.component'
 
 export const GettingStarted: React.FC = () => {
   return (
-    <Section title="Getting Started">
+    <Section title='Getting Started'>
       <P>
         To get started using this boilerplate, it is adviced to delete all of the components created
         to showcase this boilerplate that way you can start from a clean point, following the

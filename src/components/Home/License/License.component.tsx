@@ -3,7 +3,7 @@ import { Section } from '../Section/Section.component'
 
 export const License: React.FC = () => {
   return (
-    <Section title="License">
+    <Section title='License'>
       <P>
         MIT License <br />
         <br />

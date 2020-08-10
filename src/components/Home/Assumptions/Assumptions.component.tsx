@@ -3,7 +3,7 @@ import { Section } from '../Section/Section.component'
 
 export const Assumptions: React.FC = () => {
   return (
-    <Section title="Assumptions">
+    <Section title='Assumptions'>
       <P>
         This boilerplate assumes that you have knowledge about React, Next.js, Redux, Jest and
         react-testing-library. This is not a beginner friendly boilerplate. For a beginner friendly

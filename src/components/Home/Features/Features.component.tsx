@@ -56,18 +56,18 @@ export const Features: React.FC = () => {
     }
   ]
   return (
-    <Section title="Features">
+    <Section title='Features'>
       <P>
         The boilerplate comes with many libraries and tools set up out of the box to extend
         React&#39;s feature set, some of the tools included in the boilerplate are:
       </P>
       <ul sx={{ m: 0, pt: [1, 1, 2] }}>
-        {items.map((item) => (
+        {items.map(item => (
           <li key={item.name}>
             <Link
               href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
+              rel='noopener noreferrer'
               sx={{
                 color: 'primary',
                 display: 'inline-block',
@@ -76,8 +76,7 @@ export const Features: React.FC = () => {
                 borderColor: 'primary',
                 fontSize: [0, 0, 1],
                 pt: [0, 0, 1]
-              }}
-            >
+              }}>
               {item.name}
             </Link>
           </li>

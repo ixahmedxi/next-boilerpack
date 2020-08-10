@@ -11,8 +11,7 @@ export const Pre: React.FC = ({ children }) => {
         borderRadius: 10,
         whiteSpace: 'pre-wrap',
         wordWrap: 'break-word'
-      }}
-    >
+      }}>
       <code sx={{ lineHeight: 2, color: 'text', fontSize: [0, 1] }}>{children}</code>
     </pre>
   )

@@ -22,7 +22,7 @@
       "@public/*": ["public/*"],
       "@shared/*": ["src/components/shared/*"],
       "@components/*": ["src/components/*"],
-      "@store": ["src/store.ts"],
+      "@contexts/*": ["src/contexts/*"],
       "@theme": ["src/theme.ts"]
     }
   },

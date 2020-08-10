@@ -8,10 +8,9 @@ export const Footer: React.FC = () => {
         Made with <FaHeart /> by{' '}
         <Link
           sx={{ color: 'primary' }}
-          href="https://twitter.com/ixahmedxii"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          href='https://twitter.com/ixahmedxii'
+          target='_blank'
+          rel='noopener noreferrer'>
           Ahmed Elsakaan
         </Link>
       </Text>

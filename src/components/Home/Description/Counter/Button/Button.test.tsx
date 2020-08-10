@@ -8,7 +8,7 @@ describe('Counter Button component', () => {
   it('runs onClick prop when clicked', () => {
     const onClick = jest.fn()
     const { getByTestId } = render(
-      <CounterButton dataTestId="button" onClick={onClick}>
+      <CounterButton dataTestId='button' onClick={onClick}>
         Button
       </CounterButton>
     )
@@ -19,7 +19,7 @@ describe('Counter Button component', () => {
   it('renders the correct styling', () => {
     const onClick = jest.fn()
     const { getByTestId } = render(
-      <CounterButton dataTestId="button" onClick={onClick}>
+      <CounterButton dataTestId='button' onClick={onClick}>
         Button
       </CounterButton>
     )

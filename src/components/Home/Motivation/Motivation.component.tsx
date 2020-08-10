@@ -3,7 +3,7 @@ import { Section } from '../Section/Section.component'
 
 export const Motivation: React.FC = () => {
   return (
-    <Section title="Motivation">
+    <Section title='Motivation'>
       <P>
         Next.js is an amazing framework and I use it on the daily basis but the default boilerplate
         did not fulfil my needs after some time, it became time consuming to start a new project

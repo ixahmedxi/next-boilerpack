@@ -3,7 +3,7 @@ import { Section } from './Section.component'
 
 describe('Docs component', () => {
   it('matches snapshot', () => {
-    const { container } = render(<Section title="Section" />)
+    const { container } = render(<Section title='Section' />)
     expect(container).toMatchSnapshot()
   })
 })

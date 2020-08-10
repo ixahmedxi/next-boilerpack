@@ -11,7 +11,7 @@ describe('ThemeSwitcher component', () => {
   it('cycles through themes', () => {
     const currentMode = 'dark'
     const modes = ['dark', 'light']
-    const nextTheme = toggleTheme(currentMode, modes, (value) => value)
+    const nextTheme = toggleTheme(currentMode, modes, value => value)
     expect(nextTheme).toBe('light')
   })
 })

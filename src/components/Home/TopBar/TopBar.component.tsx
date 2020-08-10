@@ -1,10 +1,11 @@
 /* @jsx jsx */
-
-import { Flex, jsx } from 'theme-ui'
+import LogoLight from '@assets/logo-light.svg'
+import Logo from '@assets/logo.svg'
+import { Flex, jsx, useColorMode } from 'theme-ui'
 import { IconButtons } from './IconButtons/IconButtons.component'
-import Logo from './logo.svg'
 
 export const TopBar: React.FC = () => {
+  const [mode] = useColorMode()
   return (
     <Flex
       sx={{
@@ -12,7 +13,7 @@ export const TopBar: React.FC = () => {
         justifyContent: 'space-between',
         flexDirection: 'row'
       }}>
-      <Logo sx={{ '.text-fill': { fill: 'text' } }} />
+      <img src={mode === 'dark' ? LogoLight : Logo} alt='logo' />
       <IconButtons />
     </Flex>
   )

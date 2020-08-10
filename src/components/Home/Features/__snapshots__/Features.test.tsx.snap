@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Docs component matches snapshot 1`] = `
-.emotion-15 {
+.emotion-13 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -9,13 +9,13 @@ exports[`Docs component matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-15 {
+  .emotion-13 {
     margin-top: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-15 {
+  .emotion-13 {
     margin-top: 40px;
   }
 }
@@ -63,19 +63,19 @@ exports[`Docs component matches snapshot 1`] = `
   }
 }
 
-.emotion-14 {
+.emotion-12 {
   margin: 0;
   padding-top: 8px;
 }
 
 @media screen and (min-width:576px) {
-  .emotion-14 {
+  .emotion-12 {
     padding-top: 8px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-14 {
+  .emotion-12 {
     padding-top: 16px;
   }
 }
@@ -110,7 +110,7 @@ exports[`Docs component matches snapshot 1`] = `
 
 <div>
   <div
-    class="emotion-15"
+    class="emotion-13"
   >
     <h1
       class="emotion-0"
@@ -123,28 +123,8 @@ exports[`Docs component matches snapshot 1`] = `
       The boilerplate comes with many libraries and tools set up out of the box to extend React's feature set, some of the tools included in the boilerplate are:
     </p>
     <ul
-      class="emotion-14"
+      class="emotion-12"
     >
-      <li>
-        <a
-          class="emotion-2"
-          href="https://redux.js.org/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Redux
-        </a>
-      </li>
-      <li>
-        <a
-          class="emotion-2"
-          href="https://redux-toolkit.js.org/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Redux Toolkit
-        </a>
-      </li>
       <li>
         <a
           class="emotion-2"

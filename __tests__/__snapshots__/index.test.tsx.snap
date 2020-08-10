@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home Page matches snapshot 1`] = `
-.emotion-59 {
+.emotion-57 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -16,36 +16,36 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-59 {
+  .emotion-57 {
     max-width: 540px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-59 {
+  .emotion-57 {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width:992px) {
-  .emotion-59 {
+  .emotion-57 {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .emotion-59 {
+  .emotion-57 {
     max-width: 1140px;
   }
 }
 
 @media screen and (min-width:1400px) {
-  .emotion-59 {
+  .emotion-57 {
     max-width: 1320px;
   }
 }
 
-.emotion-58 {
+.emotion-56 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -54,14 +54,14 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-58 {
+  .emotion-56 {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-58 {
+  .emotion-56 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -343,19 +343,19 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
-.emotion-32 {
+.emotion-30 {
   margin: 0;
   padding-top: 8px;
 }
 
 @media screen and (min-width:576px) {
-  .emotion-32 {
+  .emotion-30 {
     padding-top: 8px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-32 {
+  .emotion-30 {
     padding-top: 16px;
   }
 }
@@ -388,7 +388,7 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
-.emotion-37 {
+.emotion-35 {
   background-color: var(--theme-ui-colors-muted,#e5e5e5);
   padding-top: 8px;
   padding-bottom: 8px;
@@ -400,7 +400,7 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-37 {
+  .emotion-35 {
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 24px;
@@ -408,19 +408,19 @@ exports[`Home Page matches snapshot 1`] = `
   }
 }
 
-.emotion-36 {
+.emotion-34 {
   line-height: 2;
   color: var(--theme-ui-colors-text,#111);
   font-size: 12px;
 }
 
 @media screen and (min-width:576px) {
-  .emotion-36 {
+  .emotion-34 {
     font-size: 16px;
   }
 }
 
-.emotion-38 {
+.emotion-36 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -432,18 +432,18 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-38 {
+  .emotion-36 {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-38 {
+  .emotion-36 {
     font-size: 16px;
   }
 }
 
-.emotion-57 {
+.emotion-55 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -463,18 +463,18 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-57 {
+  .emotion-55 {
     padding-top: 48px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-57 {
+  .emotion-55 {
     padding-top: 64px;
   }
 }
 
-.emotion-56 {
+.emotion-54 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -483,18 +483,18 @@ exports[`Home Page matches snapshot 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .emotion-56 {
+  .emotion-54 {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width:768px) {
-  .emotion-56 {
+  .emotion-54 {
     font-size: 16px;
   }
 }
 
-.emotion-55 {
+.emotion-53 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -503,11 +503,11 @@ exports[`Home Page matches snapshot 1`] = `
 
 <div>
   <div
-    class="emotion-59"
+    class="emotion-57"
     data-testid="container"
   >
     <div
-      class="emotion-58"
+      class="emotion-56"
     >
       <div
         class="emotion-5"
@@ -665,28 +665,8 @@ exports[`Home Page matches snapshot 1`] = `
           The boilerplate comes with many libraries and tools set up out of the box to extend React's feature set, some of the tools included in the boilerplate are:
         </p>
         <ul
-          class="emotion-32"
+          class="emotion-30"
         >
-          <li>
-            <a
-              class="emotion-20"
-              href="https://redux.js.org/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Redux
-            </a>
-          </li>
-          <li>
-            <a
-              class="emotion-20"
-              href="https://redux-toolkit.js.org/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Redux Toolkit
-            </a>
-          </li>
           <li>
             <a
               class="emotion-20"
@@ -805,10 +785,10 @@ exports[`Home Page matches snapshot 1`] = `
           refers to the name of the project you are creating so replace it with whatever you want your project to be named.
         </p>
         <pre
-          class="emotion-37"
+          class="emotion-35"
         >
           <code
-            class="emotion-36"
+            class="emotion-34"
           >
             $ git clone https://github.com/ixahmedxi/next-boilerpack 
             &lt;project-name&gt;
@@ -820,7 +800,7 @@ exports[`Home Page matches snapshot 1`] = `
           </code>
         </pre>
         <p
-          class="emotion-38"
+          class="emotion-36"
         >
           You can use yarn install instead of npm install of course
         </p>
@@ -839,10 +819,10 @@ exports[`Home Page matches snapshot 1`] = `
           To get started using this boilerplate, it is adviced to delete all of the components created to showcase this boilerplate that way you can start from a clean point, following the instructions below this can be done easily.
         </p>
         <pre
-          class="emotion-37"
+          class="emotion-35"
         >
           <code
-            class="emotion-36"
+            class="emotion-34"
           >
             $ rm -rf src/components/Home
             <br />
@@ -857,10 +837,10 @@ exports[`Home Page matches snapshot 1`] = `
           You should then modify the src/pages/index.tsx file to have an empty component so that you do not get errors about not finding components, the empty component would look like this.
         </p>
         <pre
-          class="emotion-37"
+          class="emotion-35"
         >
           <code
-            class="emotion-36"
+            class="emotion-34"
           >
             import { Layout } from '@shared/Layout/Layout.component'
 import { Container } from '@shared/Container/Container.component'
@@ -943,10 +923,10 @@ export default Index
         </p>
       </div>
       <div
-        class="emotion-57"
+        class="emotion-55"
       >
         <div
-          class="emotion-56"
+          class="emotion-54"
         >
           Made with 
           <svg
@@ -965,7 +945,7 @@ export default Index
            by
            
           <a
-            class="emotion-55"
+            class="emotion-53"
             href="https://twitter.com/ixahmedxii"
             rel="noopener noreferrer"
             target="_blank"

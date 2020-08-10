@@ -7,14 +7,6 @@ import { Section } from '../Section/Section.component'
 export const Features: React.FC = () => {
   const items = [
     {
-      name: 'Redux',
-      link: 'https://redux.js.org/'
-    },
-    {
-      name: 'Redux Toolkit',
-      link: 'https://redux-toolkit.js.org/'
-    },
-    {
       name: 'Theme UI',
       link: 'https://theme-ui.com/'
     },
